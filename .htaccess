@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+
+RewriteRule ^about /app/about.php [QSA,L]
+RewriteRule ^contact /app/contact.php [QSA,L]
+RewriteRule ^(/*)$ /app/index.php
